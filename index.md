@@ -89,10 +89,10 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 {% comment %}
 AUDIENCE
-
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
+
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
@@ -103,12 +103,12 @@ workshop is only open to people from a particular institution.
 
 {% comment %}
 LOCATION
-
 This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
 can use https://www.latlong.net/ to find the lat/long of an
 address.
 {% endcomment %}
+
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
 {% assign online = "true_private" %}
@@ -155,9 +155,10 @@ This block displays the date and links to Google Calendar.
 
 {% comment %}
 SPECIAL REQUIREMENTS
-
 Modify the block below if there are any special requirements.
 {% endcomment %}
+
+
 <p id="requirements">
   <h3>Requirements:</h3>
   {% if online == "false" %}
@@ -170,19 +171,36 @@ Modify the block below if there are any special requirements.
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
+
+
+{% comment %}
+REGISTRATION
+Modify the block below to provide registration link.
+{% endcomment %}
+
+
+<p id="requirements">
+  <h3>Registration:</h3>
+  <p>The workshop registration link will be posted at 1pm (CDT) on October 5th, 2022. Space in this workshop is limited, so if you are interested in attending please try to register as early as possible. Once the workshop is full, a waitlist will be created that will accept a limited number of additional registratants.</p>
+</p>
+
+
+
+
+
+
 {% comment %}
 ACCESSIBILITY
-
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+
+
 <p id="accessibility">
   <h3>Accessibility:</h3>
 {% if online == "false" %}
   We are committed to making this workshop
   accessible to everybody. The online workshop sessions will be conducted via Zoom and will have automated closed captioning enabled.
-  Workshop sessions will also be recorded so that they can be re-watched at a later date and audio transcripts can be viewed alongside the
-  video recording.
 </p>
 <p>
   If we can help making learning easier for
