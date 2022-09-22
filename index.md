@@ -216,31 +216,17 @@ special instructions.
 
 {% comment %}
 CONTACT EMAIL ADDRESS
-
 Display the contact email address set in the configuration file.
 {% endcomment %}
+
+
 <p id="contact">
-  <strong>Contact:</strong>
-  Please email
-  {% if page.email %}
-  {% for email in page.email %}
-  {% if forloop.last and page.email.size > 1 %}
-  or
-  {% else %}
-  {% unless forloop.first %}
-  ,
-  {% endunless %}
-  {% endif %}
-  <a href='mailto:{{email}}'>{{email}}</a>
-  {% endfor %}
-  {% else %}
-  to-be-announced
-  {% endif %}
-  for more information.
+  <h3>Contact:</h3>
+  Please email meryl.brodsky@austin.utexas.edu for more information.
 </p>
 
 <p id="roles">
-  <strong>Roles:</strong>
+  <h3>Roles:</h3>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
