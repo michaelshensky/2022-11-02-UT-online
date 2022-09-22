@@ -181,7 +181,7 @@ Modify the block below to provide registration link.
 
 <p id="requirements">
   <h3>Registration:</h3>
-  <p>The workshop registration link will be posted at 1pm (CDT) on October 5th, 2022. Space in this workshop is limited, so if you are interested in attending please try to register as early as possible. Once the workshop is full, a waitlist will be created that will accept a limited number of additional registratants.</p>
+  <p>The workshop registration link will be posted at 1pm (CDT) on October 5th, 2022. Space in this workshop is limited, so if you are interested in attending please try to register as early as possible. Once the workshop is full, a waitlist will be created that will accept a limited number of additional registrants.</p>
 </p>
 
 
