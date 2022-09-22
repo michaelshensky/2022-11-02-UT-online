@@ -430,6 +430,7 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 
+{% endif %}
 Install the videoconferencing client
 
 If you haven't used Zoom before, go to the official website to download and install the Zoom client for your computer.
@@ -444,4 +445,3 @@ Like other Carpentries workshops, you will be learning by "coding along" with th
 This blog post includes detailed information on how to set up your screen to follow along during the workshop.
 
 The setup instructions for the Data Carpentry Social Sciences workshops (with R) can be found at the workshop overview site. 
-{% endif %}
