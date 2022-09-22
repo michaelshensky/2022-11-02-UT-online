@@ -12,6 +12,7 @@ longitude: "-97.75"       # decimal longitude of the workshop venue (use https:/
 humandate: "Nov 2-4, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00am - 1:00pm CDT"    # human-readable times for the workshop e.g., 9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)
 startdate: "2022-11-02"      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: "2022-11-04"        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 ---
 
 
