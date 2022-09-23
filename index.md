@@ -364,6 +364,35 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 
 
 {% comment %}
+SYLLABUS
+
+Show what topics will be covered.
+
+1. If your workshop is R rather than Python, remove the comment
+around that section and put a comment around the Python section.
+2. Some workshops will delete SQL.
+3. Please make sure the list of topics is synchronized with what you
+intend to teach.
+4. You may need to move the div's with class="col-md-6" around inside
+the div's with class="row" to balance the multi-column layout.
+
+This is one of the places where people frequently make mistakes, so
+please preview your site before committing, and make sure to run
+'tools/check' as well.
+{% endcomment %}
+<h2 id="syllabus">Syllabus</h2>
+
+{% if page.carpentry == "swc" %}
+{% include sc/syllabus.html %}
+{% elsif page.carpentry == "dc" %}
+{% include dc/syllabus.html %}
+{% elsif page.carpentry == "lc" %}
+{% include lc/syllabus.html %}
+{% endif %}
+
+
+
+{% comment %}
 SETUP
 
 Delete irrelevant sections from the setup instructions.  Each
@@ -428,7 +457,62 @@ to obtain the software and data you will need to follow the lesson.
 
 {% endif %}
 
-<h4>Install the videoconferencing client</h4>
+
+<div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
+  <h3>OpenRefine</h3>
+  <p>
+    For this lesson you will need <em>OpenRefine</em> and a
+    web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
+    It runs inside a web browser, but no web connection is needed.
+  </p>
+
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#openrefine-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#openrefine-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="openrefine-windows">
+        <p>
+          Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
+          <strong>OpenRefine runs in your default browser.</strong>
+          It will not run correctly in Internet Explorer.
+        </p>
+        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
+        <p>Create a new directory called OpenRefine.</p>
+        <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
+        <p>Go to your newly created OpenRefine directory.</p>
+        <p>Launch OpenRefine by clicking <code>openrefine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).</p>
+        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="openrefine-macos">
+        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
+        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+        <p>Create a new directory called OpenRefine.</p>
+        <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
+        <p>Go to your newly created OpenRefine directory.</p>
+        <p>Launch OpenRefine by dragging the icon into the Applications folder.</p>
+        <p>Use <code>Ctrl-click/Open ... </code> to launch it.</p>
+        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="openrefine-linux">
+        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
+        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+        <p>Make a directory called OpenRefine.</p>
+        <p>Unzip the downloaded file into the OpenRefine directory.</p>
+        <p>Go to your newly created OpenRefine directory.</p>
+        <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
+        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+      </article>
+    </div>
+  </div>
+</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+
+
+
+<h3>Install the videoconferencing client</h3>
 
 If you haven't used Zoom before, go to the official website to download and install the Zoom client for your computer.
 Set up your workspace
