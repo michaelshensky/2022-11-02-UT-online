@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "<span style='font-size:20px'>University of Texas at Austin</span>"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "University of Texas at Austin"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for workshop location
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
@@ -379,7 +379,7 @@ the div's with class="row" to balance the multi-column layout.
 This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
-{% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -389,6 +389,9 @@ please preview your site before committing, and make sure to run
 {% elsif page.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
+
+{% endcomment %}
+
 
 
 
@@ -510,6 +513,10 @@ to obtain the software and data you will need to follow the lesson.
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
+
+
+<h3>Check to confirm that you can use Python in Google Colab</h3>
+Visit <a href="https://colab.research.google.com/">https://colab.research.google.com/</a> and click <b>Sign In</b> at the top right of the page and log in with your @utexas.edu Google Account credentials. Once you are signed in, try clicking on the <b>File</b> button at the top left of the page and the select <b>New Notebook</b>. If a new Google Colab Notebook loads successfully for you, you have everything you need in place for the start of the workshop.
 
 
 <h3>Install the videoconferencing client</h3>
