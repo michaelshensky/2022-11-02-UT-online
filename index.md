@@ -439,7 +439,7 @@ please preview your site before committing, and make sure to run
       <li><a href="https://datacarpentry.org/python-ecology-lesson/04-data-types-and-format/index.html">Data Types and Formats</a></li>
       <li><a href="https://datacarpentry.org/python-ecology-lesson/05-merging-data/index.html">Combining DataFrames</a></li>
       <li><a href="https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/index.html">Data Workflows and Automation</a></li>
-      <li><a href="https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html">Data Visualisation with <code>plotnine</code></a></li>
+      <!--<li><a href="https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html">Data Visualisation with <code>plotnine</code></a></li>-->
       <li><a href="https://datacarpentry.org/python-ecology-lesson/08-putting-it-all-together/index.html">Data Visualisation with <code>matplotlib</code></a></li>
       <!--<li><a href="https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html">Interacting with Databases with <code>pandas</code></a></li>-->
     </ul>
@@ -499,7 +499,7 @@ please preview your site before committing, and make sure to run
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. Please ignore the “Anaconda” and “Python” sections of this page since we will be using the Google Colab development environment in this workshop.
 </p>
 
 {% comment %}
@@ -519,7 +519,7 @@ to include the relevant installation instrucctions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
-{% endcomment %}
+
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -533,7 +533,7 @@ Please check the "Setup" page of
 to obtain the software and data you will need to follow the lesson.
 
 {% endif %}
-
+{% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
