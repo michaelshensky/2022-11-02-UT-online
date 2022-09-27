@@ -497,9 +497,8 @@ please preview your site before committing, and make sure to run
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. Please ignore the “Anaconda” and “Python” sections of this page since we will be using the Google Colab development environment in this workshop.
+  A list of common issues that occur during installation is provided as a reference at
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. You can also find additional details about preparing for the spreadsheet and OpenRefine portions of the workshop at <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">https://datacarpentry.org/ecology-workshop/setup-python-workshop.html</a>. If you visit either of these webpages, please ignore the “Anaconda” and “Python” sections since we will alternatively be using the Google Colab development environment in this workshop.
 </p>
 
 {% comment %}
