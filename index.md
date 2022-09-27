@@ -540,7 +540,7 @@ to obtain the software and data you will need to follow the lesson.
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
-    It runs inside a web browser, but no web connection is needed.
+    It runs inside a web browser, but no web connection is needed. In addition to having OpenRefine installed, you will need to download the following data file to your computer https://ndownloader.figshare.com/files/7823341 because we will be working with this data in OpenRefine during the workshop.
   </p>
 
   <div>
