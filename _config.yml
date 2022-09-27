@@ -53,7 +53,7 @@ pilot: false
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
 #title: "<span style='font-size:30px; font-weight:bold'>Fall 2022 UT Austin Data Carpentry Workshop (Online)</span>"
-title: "<span style='font-size:30px; font-weight:bold'>Data Carpentries Workshop - Data Analysis and Visualization in Python</span>"
+title: "<span style='font-size:30px; font-weight:bold; line-height:28px;'>Data Carpentries Workshop:<br>Data Analysis and Visualization in Python</span>"
 
 
 #------------------------------------------------------------
