@@ -498,7 +498,7 @@ please preview your site before committing, and make sure to run
 </p>
 <p>
   A list of common issues that occur during installation is provided as a reference at
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. You can also find additional details about preparing for the spreadsheet and OpenRefine portions of the workshop at <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">https://datacarpentry.org/ecology-workshop/setup-python-workshop.html</a>. If you visit either of these webpages, please ignore the “Anaconda” and “Python” sections since we will alternatively be using the Google Colab development environment in this workshop. <br>
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. You can also find additional details about preparing for the spreadsheet and OpenRefine portions of the workshop at <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">https://datacarpentry.org/ecology-workshop/setup-python-workshop.html</a>. If you visit either of these webpages, please ignore the “Anaconda” and “Python” sections since we will alternatively be using the Google Colab development environment in this workshop. <br><br>
  We will also have a virtual software installation session that will be conducted via Zoom from 3pm to 4pm on Tuesday November 1st (the day prior to the first day of the workshop). During this session workshop registrants will have the opportunity to ask questions and receive help getting the required software ready on their computers.
 </p>
 
