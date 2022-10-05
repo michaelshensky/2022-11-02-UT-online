@@ -177,7 +177,7 @@ Modify the block below to provide registration link.
 
 <p id="requirements">
   <h3>Registration:</h3>
-  <p>If you are interested in attending, please complete the workshop registration form by clicking the button below.<br><div style="background-color:#bf5700; color:#ffffff; padding:8px;"><a href="https://utexas.zoom.us/meeting/register/tJYsce6vrD4tHNGt7Y7gHuCQmwrybT4MvVno" style="font-weight:bold">Register for Workshop</a>. Space in this workshop is limited, so if you are interested in attending please try to register as early as possible. Once the workshop is full, a waitlist will be created that will accept a limited number of additional registrants.</p>
+  <p>If you are interested in attending, please complete the workshop registration form by clicking the button below.<br><div style="background-color:#bf5700; color:#ffffff; padding:8px;"><a href="https://utexas.zoom.us/meeting/register/tJYsce6vrD4tHNGt7Y7gHuCQmwrybT4MvVno" style="font-weight:bold">Register for Workshop</a></div>. Space in this workshop is limited, so if you are interested in attending please try to register as early as possible. Once the workshop is full, a waitlist will be created that will accept a limited number of additional registrants.</p>
 </p>
 
 
