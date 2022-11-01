@@ -267,13 +267,14 @@ Everyone who participates in Carpentries activities is required to conform to th
 <hr/>
 
 
-{% comment %}
+
 Collaborative Notes
 
-If you want to use an Etherpad, go to
+If you want to use the shared notes document for this workshop, please go to
 
-https://pad.carpentries.org/YYYY-MM-DD-site
+https://docs.google.com/document/d/1Ps5fr7aQDZbpXDzvjshH9mFVaWvmghGkFkRThm4icBQ/edit
 
+{% comment %}
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 
