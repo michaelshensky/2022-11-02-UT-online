@@ -267,28 +267,32 @@ Everyone who participates in Carpentries activities is required to conform to th
 <hr/>
 
 
-
+{% comment %}
 Collaborative Notes
 
 If you want to use the shared notes document for this workshop, please go to
 
-https://docs.google.com/document/d/1Ps5fr7aQDZbpXDzvjshH9mFVaWvmghGkFkRThm4icBQ/edit
 
-{% comment %}
+
+
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 
 Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
-{% endcomment %}
+
 {% if page.collaborative_notes %}
+{% endif %}
+
+{% endcomment %}
+
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="https://docs.google.com/document/d/1Ps5fr7aQDZbpXDzvjshH9mFVaWvmghGkFkRThm4icBQ/edit">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 <hr/>
-{% endif %}
+
 
 
 {% comment %}
